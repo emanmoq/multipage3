@@ -13,26 +13,30 @@ img{
     background: rgba(255, 255, 255, 1);  
 }
 #mainMenu{
-    background: rgba(255, 255, 255, 1);
+    background:#474747;
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
             border: 0;
             border-radius: 0;
             margin-bottom: 0;
             position: relative;
 }
-
+.navbar-default .navbar-nav>li>a {
+    color:white;
+    font-size:16px;
+}
 #mainMenu .navbar-toggle {
     margin-top: 32px;
     border-color: #ddd;
 }
 #mainMenu .navbar-nav li.active a, #mainMenu  .navbar-nav li:hover a {
     background: transparent;
-    padding-top: 37px;
-    border-top: 3px solid #d64545;
+    padding-top: 22px;
+    border-top: 3px solid #9a9696;
+    color:white;
 }
 #mainMenu .navbar-nav li a {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 #firstSec{
     padding: 50px 0;
@@ -45,7 +49,7 @@ img{
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    color: #d64545;}
+    color: #474747;}
     #firstSec .btn {
         margin-top: 40px;
     }
@@ -53,22 +57,22 @@ h1, h2, h3, h4, h5, h6 {
         padding: 100px 0;
     }
     .publicbtn {
-        background: #d64545;
-        border-color: #d64545;
+        background: #474747;
+        border-color: #474747;
         border-width: 0;
     border-bottom-width: 3px;
     border-radius: 3px;
     }
     .publicbtn:hover {
-        background: #a01e1e !important;
-    border:1px solid #d64545 }
+        background: #838383!important;
+    border:1px solid #474747 }
         .heading {
             margin-bottom: 50px;
         }
         
         .heading .sectionTitle {
             font-size: 44px;
-            color: #d64545;
+            color: #474747;
             text-transform: uppercase;
             position: relative;
             padding-bottom: 20px;
@@ -96,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
             margin-left: -12px;
             border: 5px solid #fff;
             border-radius: 20px;
-            background: #d64545;
+            background: #474747;
         }
         .marginTop{
             margin:25px 0;
@@ -115,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
                 text-align: center;
                 width: 65px;
                 border-radius: 50%;
-                color: #d64545;
+                color: #474747;
                 box-shadow: inset 0 0 0 1px #d7d7d7;
                 transition: background-color 400ms, background-color 400ms;
                 position: relative;
@@ -133,10 +137,10 @@ h1, h2, h3, h4, h5, h6 {
                 right: -10px;
                 border: 4px solid #fff;
                 border-radius: 20px;
-                background: #d64545;
+                background: #474747;
             }
             .FeaturesItem:hover i{
-                background-image: linear-gradient(90deg, #b3582c  0%, #d64545 100%);
+                background-image: linear-gradient(90deg, #8b8887  0%, #474747 100%);
                 color:white;
                 box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8)
             }
@@ -153,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 44px;
             }
             .downloadTitle span {
-                color: #d64545;
+                color: #474747;
             }
         #downloadSec .publicbtn{
     
@@ -190,10 +194,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px 0 0 4px;
 }
 .portfolioTaps li a:hover,.portfolioTaps li a.active {
-    background: #d64545;
+    background: #474747;
     color: #fff;
-    box-shadow: 0 -3px 0 0 #a01e1e inset;
-    -webkit-box-shadow: 0 -3px 0 0 #a01e1e inset;
+    box-shadow: 0 -3px 0 0 #838383 inset;
+    -webkit-box-shadow: 0 -3px 0 0 #838383 inset;
 }
 
 .portfolioTaps li a.active:after {
@@ -204,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: #a01e1e transparent transparent transparent;
+    border-color: #838383 transparent transparent transparent;
 }
 .portfolioCont{
     position: relative;
@@ -233,7 +237,7 @@ transition: opacity .4s;
     position: absolute;
     top: -18px;
     right: 12px;
-    background-image: linear-gradient(90deg, #b3582c  0%, #d64545 100%);
+    background-image: linear-gradient(90deg, #8b8887  0%, #474747 100%);
     width: 34px;
     height: 34px;
     line-height: 34px;
@@ -286,7 +290,7 @@ line-height: 34px;
     bottom: -1px;
     left: 0;
     width: 40%;
-    border-bottom: 1px solid #d64545;
+    border-bottom: 1px solid #474747;
 }
 #about ul{
 list-style-type: none;
@@ -294,7 +298,7 @@ padding:0;
 margin-bottom:20px;
  }
  #about ul i{
-     color:#d64545;
+     color:#474747;
  }
  #workProcess{
      background-image:url("../images/workprocess.jpg");
@@ -309,7 +313,7 @@ margin-bottom:20px;
  .BorderdIcon{
      width:80px;
      height:80px;
-     border:2px solid #d64545;
+     border:2px solid #474747;
      color:white;
      border-radius: 50%;
      position: relative;
@@ -320,9 +324,9 @@ margin-bottom:20px;
      line-height: 80px;;
  }
  .BorderdIcon span{
-  color:#d64545;
+  color:#474747;
   background-color:white;
-  border:2px solid #d64545;
+  border:2px solid #474747;
   position: absolute;
   top: -11px;
   left: 34%;
@@ -354,7 +358,7 @@ margin-bottom:20px;
 }
  #team .card:hover  .card-body {
 
-    border-color: #d64545; 
+    border-color: #474747; 
 }
 .socialIcons{
     list-style: none;
@@ -369,16 +373,17 @@ width:30px;
 height:30px;
 border-radius:4px;
 display: inline-block;
-background-color: #d64545;
+background-color: white;
 text-align: center;
 display: block;
-color:white;
+color:#474747;
 }
 .socialIcons li a i{
     line-height: 30px;
 }
 #team .card:hover .socialIcons li a{
-background-color: #d64545; 
+background-color: #474747;
+color:white 
 }
 #team{
     padding:100px 0;
@@ -395,7 +400,7 @@ background-color: #d64545;
     background: #eeeeee;
 }
 .progress-bar{
-background-color:#d64545;
+background-color:#474747;
 }
 .tab-content {
     border: 1px solid #eee;
@@ -407,14 +412,14 @@ background-color:#d64545;
     border-radius: 3px 0 0 0;
 }
 .nav.main-tab li a {
-    color: #d64545;
+    color: #474747;
 }
 .nav.main-tab li.active a {
-    background-color: #d64545;
+    background-color: #474747;
     color: black;}
 .nav.main-tab {
     background: #eee;
-    border-bottom: 3px solid #d64545;
+    border-bottom: 3px solid #474747;
     border-radius: 3px 3px 0 0;
 }
 .panel-heading {
@@ -477,7 +482,7 @@ margin:25px 0;
     display: inline-block;
     width: 115px;
     height: 115px;
-    background-image: linear-gradient(45deg, #b3582c  0%, #d64545 100%);
+    background-image: linear-gradient(45deg, #8b8887  0%, #474747 100%);
     color: white;
     border-radius: 50%;
     border: 5px solid #f6f6f6;
@@ -490,7 +495,7 @@ margin:25px 0;
 .Name{
     margin-top: 10px;
     font-size: 24px;
-    color: #d64545;
+    color: #474747;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
@@ -517,16 +522,16 @@ margin:25px 0;
     padding:80px 0;
 }
 .PriceBox.colored{
-    background: #d64545;
+    background: #474747;
     color: #fff;
     border: 0;
 }
 .PriceBox.colored .topPrice{
-    background-image: linear-gradient(45deg, #b3582c  0%, #d64545 100%);
+    background-image: linear-gradient(45deg, #8b8887  0%, #474747 100%);
 }
 .PriceBox.colored .publicbtn{
     background-color:white;
-    color:#d64545
+    color:#474747
 }.PriceBox.colored .publicbtn:hover{
     background-color:transparent !important;
     color:white;
@@ -562,7 +567,7 @@ margin:25px 0;
     right: 20px;
     bottom: -33px;
     text-align: center;
-    background: #d64545;
+    background: #474747;
     border: 3px solid #fff;
     border-radius: 100px;
 }
@@ -580,7 +585,7 @@ font-size:20px;
     display: block;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #d64545;
+    color: #474747;
 }
 .blog-body .blogtitle{
     margin-top: 0;
@@ -593,7 +598,7 @@ font-size:20px;
     text-decoration: none;
 }
 .blog-body .blogtitle a:hover{
-    color: #d64545;
+    color: #474747;
 }
 .blogBox.verticalBox .blogImg{
     width:50%;
@@ -629,7 +634,7 @@ font-size:20px;
 }
 .contactHeader{
     padding: 100px 0 50px;
-    background-image: linear-gradient(45deg, #b3582c  0%, #d64545 100%);
+    background-image: linear-gradient(45deg, #8b8887  0%, #474747 100%);
     color: #fff;
 
 }
@@ -666,7 +671,7 @@ textarea{
 #footer{
     padding: 30px 0;
     color: white;
-    background: #d64545;
+    background: black;
 }
 
 .footerIcons{
@@ -688,31 +693,31 @@ margin:0 7px;
     width:20% !important
 }
 #footer a:hover{
-    color: #2f4249;
+    color: #9a9696;
 }
 .socialHeader{
-    background-color:#d64545;
+    background-color:black;
     padding:10px;
 }
 .lognSec{
-    text-align: right;;
+    text-align: right;
 }
 .lognSec h3{
     display: inline-block;
     margin:0 10px;
-    border:1px solid black;
+    border:1px solid white;
     font-size:14px;
     padding:10px;
     border-radius: 5px;
 }
 .lognSec h3:hover{
-    background-color:white;
+    background-color:#9a9696;
 }
 .lognSec h3:hover a{
-    color:#d64545
+    color:black
 }
 .lognSec h3 a{
-color:black;
+color:white;
 text-decoration: none;
 }
 .socialHeaderSec .footerIcons{
@@ -722,7 +727,7 @@ text-decoration: none;
     color:white;
 }
 .socialHeaderSec .footerIcons a:hover{
-    color:black;
+    color:#9a9696;
 }
 #FAQ{
     padding:100px 0;
@@ -776,7 +781,7 @@ color:black;
 .loginHeader{
     font-size:16px;
     margin-bottom: 20px;
-    color:#d64545;
+    color:#474747;
 }
 .publicbtn.login {
     padding:10px 20px;
@@ -786,7 +791,7 @@ color:black;
     font-size:14px;
 }
 .lostPassword:hover{
-    color:#d64545;
+    color:#474747;
     text-decoration:none;
 }
 .form-label{
@@ -821,7 +826,7 @@ font-size:12px;
 .loginIcons.footerIcons li a{
     color:white !important;
 
-    color: #d64545;
+    color: #474747;
 }
 #remember{
     margin-left:20px;
@@ -932,7 +937,7 @@ color:white;
     margin:10px 0;
 }
 .blogTags li:hover a{
-    background-color:#d64545 !important;
+    background-color:#474747 !important;
     color:white;
 }
 
