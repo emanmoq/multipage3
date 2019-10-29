@@ -1,5 +1,6 @@
 jQuery(function ($) {
 
+
 	//navbar-fixed-top
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 200) {
@@ -15,21 +16,7 @@ jQuery(function ($) {
 		return false;
 	});
 		
-	$('#counter').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-		if (visible) {
-			$(this).find('.counterNum').each(function () {
-				var $this = $(this);
-				$({ Counter: 0 }).animate({ Counter: $this.text() }, {
-					duration: 2000,
-					easing: 'swing',
-					step: function () {
-						$this.text(Math.ceil(this.Counter));
-					}
-				});
-			});
-			$(this).unbind('inview');
-		}
-	});
+
 	function onScroll(event){
 			
 		var scrollPosition = $(document).scrollTop();
@@ -47,14 +34,7 @@ jQuery(function ($) {
   
 		});
 	  }
-	  $(document).on("scroll", onScroll);
-	  $('.counterNum').bind('inview', function(event, isInView) {
-		var $this = $(this);
-		if (isInView) {
-			$this.animateNumbers($this.data('digit'), false, $this.data('duration')); 
-			$this.unbind('inview');
-		}
-	})
+
 
 	// portfolio filter
 	$(window).load(function(){'use strict';
