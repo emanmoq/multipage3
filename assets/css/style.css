@@ -1000,6 +1000,12 @@ iframe{
 }
 
 
+ .change-color {
+    background-color: #474747;
+
+ }
+
+
 @media (max-width:767px){
     .counterNum{
         width:100%;}

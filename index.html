@@ -971,10 +971,41 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxrnwTyDI68in8hdLFZC-3EHx1E_GhdhU"></script>
   <script src="assets/js/jquery.isotope.min.js"></script>
   <script src="assets/js/jquery.inview.min.js"></script>
+  <script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=e4148037-6ed8-4c7b-b751-2ce019b208af"></script>
+  <script type="text/javascript">
+    if (window.zE) {
+      zE(function () {
+        var userName = "Eman Samour";
+        var userEmail = "e.moq2005@gmail.com";
+        zE.identify({ name: userName, email: userEmail });
+      });
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      function getStyleSheet(cssName, rule) {
+        for (i = 0; i < document.styleSheets.length; i++) {
+          if (document.styleSheets[i].href.toString().indexOf(cssName) != -1)
+            for (x = 0; x < document.styleSheets[i].rules.length; x++) {
+              if (document.styleSheets[i].rules[x].selectorText.toString().indexOf(rule) != -1)
+                return document.styleSheets[i].rules[x];
+            }
+
+        }
+
+        return null;
+      }
+      getStyleSheet('https://static.zdassets.com/ekr/snippet.js?key=e4148037-6ed8-4c7b-b751-2ce019b208af', '.wrapper-AtBcr.u-isActionable.u-textLeft.u-inlineBlock.u-borderNone.u-textBold.u-textNoWrap.Arrange.Arrange--middle.u-userLauncherColor').removeClass("u-userLauncherColor");
+
+    });
+
+  </script>
 
   <script src="assets/js/main.js"></script>
-<!--Start of Tawk.to Script-->
 
-  </body>
+
+
+</body>
 
 </html>
